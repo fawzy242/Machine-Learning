@@ -120,6 +120,6 @@ sample = pd.DataFrame([{
 }])
 prediksi = int(mdl.predict(sample)[0])
 if prediksi == 1:
-    print("✅ Prediksi: Mahasiswa **LULUS TEPAT WAKTU**")
+    print("Prediksi: Mahasiswa **LULUS TEPAT WAKTU**")
 else:
-    print("❌ Prediksi: Mahasiswa **TIDAK LULUS TEPAT WAKTU / TERLAMBAT**")
+    print("Prediksi: Mahasiswa **TIDAK LULUS TEPAT WAKTU / TERLAMBAT**")
