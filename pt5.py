@@ -96,7 +96,7 @@ MODEL = joblib.load("model.pkl")
 
 @app.route("/", methods=["GET"])
 def home():
-    return "✅ Flask model prediction API is running on /predict (POST)"
+    return "Flask model prediction API is running on /predict (POST)"
 
 @app.route("/predict", methods=["POST"])
 def predict():
